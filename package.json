@@ -31,7 +31,7 @@
     "webpackbar": "^5.0.2"
   },
   "scripts": {
-    "start": "cross-env PORT=4200 react-app-rewired start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider &cross-env PORT=4200 react-app-rewired start",
     "test": "react-app-rewired test",
     "build": "react-app-rewired build"
   },
